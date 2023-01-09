@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <section class="section | u-bg-gradient">
     <LayoutHeader />
-  </div>
+  </section>
 </template>
 
 <script>

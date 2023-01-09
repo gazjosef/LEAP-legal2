@@ -5,7 +5,7 @@
     <SectionSharing />
     <SectionSigning />
     <LayoutFooter />
-    <Tutorial />
+    <!-- <Tutorial /> -->
   </div>
 </template>
 

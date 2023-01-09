@@ -37,20 +37,6 @@
   color: $clr-primary-200;
 }
 
-// * CONTAINER
-
-.u-container {
-  margin: 0;
-  max-width: 100%;
-  width: 100%;
-  min-height: 50rem;
-
-  @include respond(desktop) {
-    max-width: 120rem;
-    margin: 8rem auto;
-  }
-}
-
 // * FONT
 
 // HEADING
@@ -165,4 +151,11 @@
   @include respond(tab-port) {
     display: block;
   }
+}
+
+.u-auto-columns {
+  width: 100%;
+
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
