@@ -1,5 +1,7 @@
 <template>
-  <h1>SectionHero</h1>
+  <div>
+    <LayoutHeader />
+  </div>
 </template>
 
 <script>
