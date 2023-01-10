@@ -18,7 +18,7 @@
           />
         </picture>
         <!-- --TEXT -->
-        <div class="hero__text">
+        <div class="hero__text | | u-col-start-1 u-row-start-1">
           <h1 class="heading-primary-100 | u-margin-bottom-small u-text-white">
             The place to work with your lawyer
           </h1>

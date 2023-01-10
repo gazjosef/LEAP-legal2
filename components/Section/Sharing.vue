@@ -7,7 +7,7 @@
         alt="Sharing Documents"
       />
 
-      <div class="section-sharing__text">
+      <div class="section-sharing__text | u-col-start-1 u-row-start-1">
         <h1
           class="heading-primary-300 | u-margin-bottom-small u-text-primary-100"
         >
