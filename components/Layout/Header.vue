@@ -1,6 +1,14 @@
 <template>
   <header class="header | u-fs-600 u-fw-bold u-text-white">
-    <h1>HEADER</h1>
+    <UILogo />
+    <nav>
+      <h1>HEADER</h1>
+    </nav>
+
+    <div class="login">
+      <a href="">Login</a>
+      <UIButton />
+    </div>
   </header>
 </template>
 

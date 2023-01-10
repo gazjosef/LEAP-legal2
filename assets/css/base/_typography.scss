@@ -1,7 +1,76 @@
 body {
-  color: red;
   font-family: $font-primary;
   font-weight: $fw-regular;
   font-size: $default-font-size;
   line-height: 1.7;
+}
+
+.heading-primary-100 {
+  max-width: 17ch;
+  font-weight: $fw-bold;
+  font-size: $fs-750;
+  text-align: center;
+  line-height: 1.2;
+
+  @include respond(desktop) {
+    font-size: $fs-950;
+    text-align: left;
+  }
+}
+
+.heading-primary-200 {
+  font-weight: $fw-regular;
+  font-size: $fs-650;
+
+  @include respond(desktop) {
+    font-size: $fs-800;
+  }
+}
+
+.heading-primary-300 {
+  max-width: 20ch;
+  margin-bottom: 1rem;
+
+  font-size: $fs-650;
+  font-weight: $fw-bold;
+  line-height: 1.4;
+
+  @include respond(desktop) {
+    font-size: $fs-800;
+    font-weight: $fw-semi-bold;
+  }
+}
+
+.heading-secondary-100 {
+  font-size: $fs-625;
+  font-weight: $fw-semi-bold;
+}
+
+.paragraph {
+  font-size: $fs-400;
+  max-width: $max-ch-width;
+  color: rgba($clr-black-900, 0.8);
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  @include respond(desktop) {
+    font-size: $default-font-size;
+  }
+}
+
+.paragraph-100 {
+  font-size: $fs-400;
+  max-width: $max-ch-width;
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  @include respond(desktop) {
+    text-align: left;
+    font-size: $default-font-size;
+  }
 }

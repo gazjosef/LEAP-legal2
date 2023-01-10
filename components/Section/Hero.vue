@@ -42,81 +42,81 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/css/abstract/breakpoints.scss';
-// .section-hero {
-//   height: 65rem;
-//   z-index: 0;
-//   padding-top: 8rem;
-//   overflow: hidden;
+.section-hero {
+  height: 65rem;
+  z-index: 0;
+  padding-top: 8rem;
+  overflow: hidden;
 
-//   position: relative;
+  position: relative;
 
-//   // @include respond(desktop) {
-//   //   padding: 10rem 4rem 4rem 4rem;
-//   // }
+  // @include respond(desktop) {
+  //   padding: 10rem 4rem 4rem 4rem;
+  // }
 
-//   .hero {
-//     display: grid;
-//     grid-template-rows: repeat(2, auto);
-//     grid-gap: 2rem;
+  .hero {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 2rem;
 
-//     & > * {
-//       display: grid;
-//       place-content: center;
-//     }
+    & > * {
+      display: grid;
+      place-content: center;
+    }
 
-//     @include respond(desktop) {
-//       grid-template-columns: repeat(2, 1fr);
+    // @include respond(desktop) {
+    //   grid-template-columns: repeat(2, 1fr);
 
-//       &__text {
-//         margin-right: auto;
+    //   &__text {
+    //     margin-right: auto;
 
-//         grid-column: 1 / span 1;
-//         grid-row: 1 / span 1;
-//       }
+    //     grid-column: 1 / span 1;
+    //     grid-row: 1 / span 1;
+    //   }
 
-//       &__img {
-//         grid-column: 2 / span 1;
-//         grid-row: 1 / span 1;
+    //   &__img {
+    //     grid-column: 2 / span 1;
+    //     grid-row: 1 / span 1;
 
-//         position: relative;
+    //     position: relative;
 
-//         &::before {
-//           content: '';
-//           // background-color: rgba($clr-primary-200, 0.2);
-//           -moz-border-radius: 50%;
-//           -webkit-border-radius: 50%;
-//           border-radius: 50%;
-//           height: 35vw;
-//           width: 35vw;
+    //     &::before {
+    //       content: '';
+    //       // background-color: rgba($clr-primary-200, 0.2);
+    //       -moz-border-radius: 50%;
+    //       -webkit-border-radius: 50%;
+    //       border-radius: 50%;
+    //       height: 35vw;
+    //       width: 35vw;
 
-//           display: inline-block;
-//           position: absolute;
-//           top: 50%;
-//           left: 50%;
-//           z-index: -90;
+    //       display: inline-block;
+    //       position: absolute;
+    //       top: 50%;
+    //       left: 50%;
+    //       z-index: -90;
 
-//           transform: translate(-50%, -50%);
-//         }
+    //       transform: translate(-50%, -50%);
+    //     }
 
-//         &::after {
-//           content: '';
-//           // background-image: linear-gradient($clr-primary-200, $clr-primary-100);
-//           -moz-border-radius: 50%;
-//           -webkit-border-radius: 50%;
-//           border-radius: 50%;
-//           height: 22vw;
-//           width: 22vw;
+    //     &::after {
+    //       content: '';
+    //       // background-image: linear-gradient($clr-primary-200, $clr-primary-100);
+    //       -moz-border-radius: 50%;
+    //       -webkit-border-radius: 50%;
+    //       border-radius: 50%;
+    //       height: 22vw;
+    //       width: 22vw;
 
-//           display: inline-block;
-//           position: absolute;
-//           top: 50%;
-//           left: 50%;
-//           z-index: -80;
+    //       display: inline-block;
+    //       position: absolute;
+    //       top: 50%;
+    //       left: 50%;
+    //       z-index: -80;
 
-//           transform: translate(-50%, -50%);
-//         }
-//       }
-//     }
-//   }
-// }
+    //       transform: translate(-50%, -50%);
+    //     }
+    //   }
+    // }
+  }
+}
 </style>

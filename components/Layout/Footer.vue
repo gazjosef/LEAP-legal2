@@ -1,5 +1,5 @@
 <template>
-  <h1>LayoutFooter</h1>
+  <footer class="footer | u-bg-black"></footer>
 </template>
 
 <script>
@@ -8,4 +8,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.footer {
+  height: 4.7rem;
+}
+</style>
