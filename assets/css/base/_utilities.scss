@@ -10,6 +10,14 @@
   background-color: $clr-white-100;
 }
 
+.u-bg-primary-200 {
+  background-color: $clr-primary-200;
+}
+
+.u-bg-primary-300 {
+  background-color: $clr-primary-300;
+}
+
 .u-bg-black {
   background-color: $clr-black;
 }
@@ -127,7 +135,7 @@
   margin-top: 10rem !important;
 }
 
-// * POSITIONING
+// * POSITION
 
 // CENTER TEXT
 
@@ -135,10 +143,23 @@
   text-align: center !important;
 }
 
+// FLEX
+
+.u-flex {
+  display: flex;
+}
+
 // GRID
 
 .u-grid {
   display: grid;
+}
+
+.u-auto-columns {
+  width: 100%;
+
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .u-even-columns {
@@ -151,11 +172,4 @@
   @include respond(tab-port) {
     display: block;
   }
-}
-
-.u-auto-columns {
-  width: 100%;
-
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
