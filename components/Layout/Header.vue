@@ -7,7 +7,7 @@
     <LayoutNavbar />
 
     <div class="login">
-      <a href="">Login</a>
+      <a href="#" class="u-text-white">Login</a>
       <UIButton />
     </div>
   </header>
@@ -21,7 +21,6 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  // width: 100%;
   padding: 1.5rem;
 
   position: fixed;

@@ -1,6 +1,6 @@
 <template>
   <button type="button" class="button | u-bg-primary-300 u-text-white">
-    Button
+    Create Free Account
   </button>
 </template>
 
@@ -15,7 +15,20 @@ export default {
   border-radius: 6px;
   border: none;
   height: 4rem;
-  padding: 2rem 4rem;
-  // width: 100%;
+  width: 18rem;
+  z-index: 10;
+
+  &:hover {
+    // background-color: $clr-primary-100;
+    transform: scale(1, 0.9);
+
+    .prevText {
+      display: none;
+    }
+
+    .newText {
+      display: block;
+    }
+  }
 }
 </style>

@@ -5,7 +5,7 @@
     <!-- HERO SECTION -->
     <div class="container">
       <div class="hero | u-grid u-even-columns">
-        <!-- HERO IMAGE -->
+        <!-- --IMAGE -->
         <picture class="hero__img">
           <source
             media="(min-width:351px)"
@@ -17,7 +17,7 @@
             style="width: auto"
           />
         </picture>
-        <!-- HERO TEXT -->
+        <!-- --TEXT -->
         <div class="hero__text">
           <h1 class="heading-primary-100 | u-margin-bottom-small u-text-white">
             The place to work with your lawyer
@@ -26,10 +26,7 @@
             Your lawyer uses LawConnect to share information with you about your
             legal case in a private, convenient and secure way.
           </p>
-          <!-- BUTTON -->
-          <button class="button">
-            <a href="#">Create Free Account</a>
-          </button>
+
           <UIButton />
         </div>
       </div>
