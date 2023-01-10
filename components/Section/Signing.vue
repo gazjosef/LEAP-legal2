@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <div class="section-signing | u-container">
+    <div class="section-signing container | u-grid u-even-columns">
       <picture class="section-signing__img">
         <source
           media="(min-width:351px)"

@@ -1,9 +1,10 @@
 <template>
-  <header class="header | u-fs-600 u-fw-bold u-text-white">
+  <header
+    class="header | u-flex u-justify-between | u-fs-600 u-fw-bold u-text-white"
+  >
     <UILogo />
-    <nav>
-      <h1>HEADER</h1>
-    </nav>
+
+    <LayoutNavbar />
 
     <div class="login">
       <a href="">Login</a>
@@ -20,16 +21,12 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  width: 100%;
+  // width: 100%;
   padding: 1.5rem;
 
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   top: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 </style>

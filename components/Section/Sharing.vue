@@ -1,9 +1,9 @@
 <template>
   <section class="section | u-bg-white-100">
-    <div class="section-sharing | u-container">
+    <div class="section-sharing container | u-grid u-even-columns">
       <img
         class="section-sharing__img"
-        src="../../assets/images/lc-share-docs@2x.png"
+        src="@/assets/images/lc-share-docs@2x.png"
         alt="Sharing Documents"
       />
 

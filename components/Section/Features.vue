@@ -8,9 +8,9 @@
       </h1>
 
       <div class="u-grid u-auto-columns">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
+        <UICard />
+        <UICard />
+        <UICard />
       </div>
     </div>
   </section>

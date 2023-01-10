@@ -1,5 +1,9 @@
 <template>
-  <h1>LayoutNavbar</h1>
+  <ul>
+    <li>For People</li>
+    <li>For Businesses</li>
+    <li>Contact</li>
+  </ul>
 </template>
 
 <script>
@@ -8,4 +12,16 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  li {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    list-style: none;
+  }
+}
+</style>

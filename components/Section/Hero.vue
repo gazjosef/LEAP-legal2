@@ -4,18 +4,20 @@
     <LayoutHeader />
     <!-- HERO SECTION -->
     <div class="container">
-      <div class="hero">
+      <div class="hero | u-grid u-even-columns">
+        <!-- HERO IMAGE -->
         <picture class="hero__img">
           <source
             media="(min-width:351px)"
-            srcset="../../assets/images/lc-hero-desktop@2x.png"
+            srcset="@/assets/images/lc-hero-desktop@2x.png"
           />
           <img
-            src="../../assets/images/lc-hero-mobile@2x.png"
+            src="@/assets/images/lc-hero-mobile@2x.png"
             alt="Signing Documents Electronically"
             style="width: auto"
           />
         </picture>
+        <!-- HERO TEXT -->
         <div class="hero__text">
           <h1 class="heading-primary-100 | u-margin-bottom-small u-text-white">
             The place to work with your lawyer
@@ -24,6 +26,7 @@
             Your lawyer uses LawConnect to share information with you about your
             legal case in a private, convenient and secure way.
           </p>
+          <!-- BUTTON -->
           <button class="button">
             <a href="#">Create Free Account</a>
           </button>
@@ -55,14 +58,14 @@ export default {
   // }
 
   .hero {
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 2rem;
+    // display: grid;
+    // grid-template-rows: repeat(2, auto);
+    // grid-gap: 2rem;
 
-    & > * {
-      display: grid;
-      place-content: center;
-    }
+    // & > * {
+    //   display: grid;
+    //   place-content: center;
+    // }
 
     // @include respond(desktop) {
     //   grid-template-columns: repeat(2, 1fr);
