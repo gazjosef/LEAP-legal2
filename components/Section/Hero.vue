@@ -18,7 +18,7 @@
           />
         </picture>
         <!-- --TEXT -->
-        <div class="hero__text | | u-col-start-1 u-row-start-1">
+        <div class="hero__text | u-col-start-1 u-row-start-1">
           <h1 class="heading-primary-100 | u-margin-bottom-small u-text-white">
             The place to work with your lawyer
           </h1>
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@use '../../assets/css/abstract/breakpoints.scss';
+@use '@/assets/css/abstract/breakpoints.scss';
 .section-hero {
   height: 65rem;
   z-index: 0;
