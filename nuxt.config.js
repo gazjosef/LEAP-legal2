@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'LEAP-legal2',
+    title: 'LEAP-legal',
     htmlAttrs: {
       lang: 'en',
     },
