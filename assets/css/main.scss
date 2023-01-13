@@ -3,6 +3,12 @@
 @import '/assets/css/abstract/variables';
 
 @import '/assets/css/base/base';
-@import '/assets/css/base/elements';
 @import '/assets/css/base/typography';
-@import '/assets/css/base/utilities';
+
+@import '/assets/css/utils/color';
+@import '/assets/css/utils/elements';
+@import '/assets/css/utils/font';
+@import '/assets/css/utils/grid';
+@import '/assets/css/utils/margin';
+@import '/assets/css/utils/padding';
+@import '/assets/css/utils/position';

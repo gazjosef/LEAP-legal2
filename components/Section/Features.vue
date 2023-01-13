@@ -7,7 +7,7 @@
         One Solution Designed to Make Your Firm More Money
       </h1>
 
-      <div class="u-grid u-auto-columns">
+      <div class="u-grid u-auto-columns u-gap-5">
         <UICard
           box="box-1"
           image="lc-greater-collab@2x"

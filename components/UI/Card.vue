@@ -1,11 +1,11 @@
 <template>
-  <div class="feature-box">
+  <div class="card">
     <img
-      class="feature-box__img"
+      class="card__img"
       :src="require(`@/assets/images/${image}.jpg`)"
-      alt="Greater Collaboration"
+      :alt="title"
     />
-    <div class="feature-box__text">
+    <div class="card__text">
       <h2
         class="heading-secondary-100 | u-margin-bottom-small u-text-primary-200"
       >
@@ -31,11 +31,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.feature-box {
-  box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
+.card {
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
   border-radius: 5px;
   height: 32rem;
-  width: 100%;
+  max-width: 32rem;
 
   // @include respond(desktop) {
   //   width: 32.2rem;
