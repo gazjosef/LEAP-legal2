@@ -8,9 +8,25 @@
       </h1>
 
       <div class="u-grid u-auto-columns">
-        <UICard />
-        <UICard />
-        <UICard />
+        <UICard
+          box="box-1"
+          image="lc-greater-collab@2x"
+          title="Greater Collaboration"
+          excerpt="Collaborate on documents with clients, lawyers and other parties with
+        LawConnect's Comment and Reply."
+        />
+        <UICard
+          box="box-2"
+          image="lc-work-remote@2x"
+          title="Work Remotely"
+          excerpt="You can sign in to LawConnect and view, collaborate and share your documents from anywhere."
+        />
+        <UICard
+          box="box-1"
+          image="lc-safe-docs@2x"
+          title="Safe Documents"
+          excerpt="LawConnect stores its data on servers provided by Amazon Web Services and is safer than email."
+        />
       </div>
     </div>
   </section>

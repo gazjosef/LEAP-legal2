@@ -1,19 +1,18 @@
 <template>
-  <div class="feature-box box-1">
+  <div class="feature-box">
     <img
       class="feature-box__img"
-      src="@/assets/images/lc-greater-collab@2x.jpg"
+      :src="require(`@/assets/images/${image}.jpg`)"
       alt="Greater Collaboration"
     />
     <div class="feature-box__text">
       <h2
         class="heading-secondary-100 | u-margin-bottom-small u-text-primary-200"
       >
-        Greater Collaboration
+        {{ title }}
       </h2>
       <p class="paragraph">
-        Collaborate on documents with clients, lawyers and other parties with
-        LawConnect’s Comment and Reply.
+        {{ excerpt }}
       </p>
     </div>
   </div>
@@ -21,11 +20,12 @@
 
 <script>
 export default {
-  // props: {
-  //   image: String,
-  //   title: String,
-  //   excerpt: String,
-  // },
+  props: {
+    box: String,
+    image: String,
+    title: String,
+    excerpt: String,
+  },
   name: 'UiCard',
 }
 </script>
