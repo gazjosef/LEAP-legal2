@@ -41,7 +41,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@use '@/assets/css/abstract/breakpoints.scss';
+// @use '@/assets/css/abstract/breakpoints.scss';
+@use '@/assets/css/abstract/variables.scss';
 .section-hero {
   height: 65rem;
   z-index: 0;
@@ -55,68 +56,49 @@ export default {
   // }
 
   .hero {
-    // display: grid;
-    // grid-template-rows: repeat(2, auto);
-    // grid-gap: 2rem;
+    &__text {
+      margin-right: auto;
+    }
 
-    // & > * {
-    //   display: grid;
-    //   place-content: center;
-    // }
+    &__img {
+      position: relative;
 
-    // @include respond(desktop) {
-    //   grid-template-columns: repeat(2, 1fr);
+      &::before {
+        content: '';
+        background-color: rgba($clr-primary-200, 0.2);
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        height: 35vw;
+        width: 35vw;
 
-    //   &__text {
-    //     margin-right: auto;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -90;
 
-    //     grid-column: 1 / span 1;
-    //     grid-row: 1 / span 1;
-    //   }
+        transform: translate(-50%, -50%);
+      }
 
-    //   &__img {
-    //     grid-column: 2 / span 1;
-    //     grid-row: 1 / span 1;
+      &::after {
+        content: '';
+        background-image: linear-gradient($clr-primary-200, crimson);
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        height: 22vw;
+        width: 22vw;
 
-    //     position: relative;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -80;
 
-    //     &::before {
-    //       content: '';
-    //       // background-color: rgba($clr-primary-200, 0.2);
-    //       -moz-border-radius: 50%;
-    //       -webkit-border-radius: 50%;
-    //       border-radius: 50%;
-    //       height: 35vw;
-    //       width: 35vw;
-
-    //       display: inline-block;
-    //       position: absolute;
-    //       top: 50%;
-    //       left: 50%;
-    //       z-index: -90;
-
-    //       transform: translate(-50%, -50%);
-    //     }
-
-    //     &::after {
-    //       content: '';
-    //       // background-image: linear-gradient($clr-primary-200, $clr-primary-100);
-    //       -moz-border-radius: 50%;
-    //       -webkit-border-radius: 50%;
-    //       border-radius: 50%;
-    //       height: 22vw;
-    //       width: 22vw;
-
-    //       display: inline-block;
-    //       position: absolute;
-    //       top: 50%;
-    //       left: 50%;
-    //       z-index: -80;
-
-    //       transform: translate(-50%, -50%);
-    //     }
-    //   }
-    // }
+        transform: translate(-50%, -50%);
+      }
+    }
   }
 }
 </style>
