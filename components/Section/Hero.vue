@@ -42,7 +42,7 @@ export default {
 
 <style lang="scss" scoped>
 // @use '@/assets/css/abstract/breakpoints.scss';
-@use '@/assets/css/abstract/variables.scss';
+@use '@/assets/scss/abstract/variables.scss';
 .section-hero {
   height: 65rem;
   z-index: 0;
