@@ -83,7 +83,7 @@ export default {
 
       &::after {
         content: '';
-        background-image: linear-gradient($clr-primary-200, crimson);
+        background-image: linear-gradient($clr-primary-200, $clr-primary-100);
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
